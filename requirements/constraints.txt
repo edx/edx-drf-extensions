@@ -10,3 +10,6 @@
 
 # Until we start testing the newer versions in CI.
 django < 2.3
+
+# Pin version of pyjwt to less than 2.0.0.
+pyjwt<2.0.1
